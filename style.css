@@ -1,0 +1,19 @@
+body{
+    min-height: 200vh;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a{
+    padding: 1rem;
+    display: inline-block;
+}
+
+nav{
+    box-shadow: blanchedalmond;
+}
