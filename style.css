@@ -3,15 +3,19 @@ head {
   margin-right: 100px;
 }
 
-nav {
-  display:flexbox;
-  flex-direction: column;
-    
-}
 
-ul {
-    display: flex;
-    justify-content: center;
+div{
+  display: flex;
+  justify-content: center;
+}
+nav{
+  flex: 1;
+}
+p{
+  flex: 2;
+}
+ul{
+  flex: 1;
 }
 
 body {
