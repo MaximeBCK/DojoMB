@@ -1,9 +1,15 @@
 h1 {
-    font-family: lo;
+    max-width: 680px;
 }
-body {
-    display: flexbox;
-    flex;
+body{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
 }
-
-img
+img{
+    width: 100%;
+    max-height: 50%;
+}
+p{
+    max-width: 680px;
+}
